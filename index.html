@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SpikeWatch | VALORANT Champions Shanghai 2026</title>
+<meta name="description" content="VALORANT Champions Shanghai 2026: canlı skorlar, maç takvimi, tahmin ligi, gruplar, takımlar ve haberler.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div><div class="spot"></div>
+<header>
+<a class="logo" href="#top"><i></i>Spike<b>Watch</b></a>
+<nav><a href="#maclar">Maçlar</a><a href="#gruplar">Gruplar</a><a href="#takimlar">Takımlar</a><a href="#tahmin">Tahmin Ligi</a><a href="#izle">Nereden izlenir</a><a href="#haber">Haberler</a></nav>
+<div id="me"></div>
+</header>
+<main id="top">
+<section class="hero">
+<div>
+<p class="sub">Şanghay · 24 Eylül – 18 Ekim 2026 · 2.250.000$ ödül</p>
+<h1>16 takım.<br>Bir kupa.<br>Şanghay.</h1>
+<p class="sub">Canlı skor, maç saatleri ve tahmin ligi tek sayfada. Saatler cihazının saat dilimine göre gösterilir.</p>
+</div>
+<div id="next" class="card next"></div>
+</section>
+<section id="maclar">
+<h2>Maçlar</h2>
+<div class="tabs" id="tabs"><button data-f="live">Canlı</button><button data-f="up">Yaklaşan</button><button data-f="done">Biten</button></div>
+<div id="matches" class="grid"></div>
+</section>
+<section id="gruplar"><h2>Gruplar</h2><div id="groups" class="grid g4"></div></section>
+<section id="takimlar"><h2>Takımlar</h2><div id="teams" class="grid g4"></div></section>
+<section id="tahmin">
+<h2>Tahmin Ligi</h2>
+<div class="two">
+<div class="card">
+<h3>Nasıl çalışır?</h3>
+<ul>
+<li>Kayıt ol, maç başlamadan kazananı ve skoru seç.</li>
+<li>Doğru kazanan: <b>10 puan</b>. Skoru da bilirsen <b>+5 bonus</b>.</li>
+<li>Tahminler maç başladığı anda kilitlenir.</li>
+<li>Puanlar turnuva bitince, 18 Ekim finalinden sonra Tahmin Şampiyonu'nu belirlemek için kullanılır.</li>
+</ul>
+<p class="note">Şu an hesaplar ve puanlar bu tarayıcıda saklanır.</p>
+</div>
+<div class="card"><h3>Sıralama</h3><div id="board"></div></div>
+</div>
+</section>
+<section id="izle"><h2>Nereden izlenir?</h2><div id="watch" class="grid g4"></div></section>
+<section id="haber"><h2>Haberler</h2><div id="news" class="grid"></div></section>
+</main>
+<footer>SpikeWatch bir hayran projesidir; Riot Games ile bağlantısı yoktur. VALORANT ve Riot Games, Riot Games, Inc. markalarıdır.</footer>
+<dialog id="dlg"></dialog>
+<script src="script.js"></script>
+</body>
+</html>
